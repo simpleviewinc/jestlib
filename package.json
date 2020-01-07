@@ -1,0 +1,10 @@
+{
+  "name": "jestlib",
+  "version": "1.0.0",
+  "description": "Jest Testing helpers",
+  "main": "index.js",
+  "repository": "https://github.com/simpleviewinc/jestlib",
+  "author": "Lance Tipton",
+  "license": "MIT",
+  "private": false
+}
