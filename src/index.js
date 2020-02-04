@@ -1,2 +1,3 @@
-export * from './mockConsole'
+export * from './mocked'
 export * from './testArray'
+export * from './utils'

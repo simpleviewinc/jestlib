@@ -27,6 +27,7 @@
     "rollup-plugin-sourcemaps": "0.4.2"
   },
   "peerDependencies": {
+    "app-root-path": "2.2.1",
     "jsutils": "git+https://github.com/lancetipton/jsutils.git",
     "jsvalidator": "^1.2.0"
   },
