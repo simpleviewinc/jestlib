@@ -9,7 +9,7 @@ export default {
     file: `./build/index.js`,
     format: 'cjs'
   },
-  external: ['jest', 'jsutils', 'jsvalidator' ],
+  external: ['jest', 'jsutils', 'jsvalidator', 'redux' ],
   watch: {
     clearScreen: false
   },

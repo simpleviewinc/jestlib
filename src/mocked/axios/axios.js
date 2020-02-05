@@ -31,13 +31,13 @@ const getAxiosResponse = (request, type) => {
   })
 }
 
-export const axios = jest.fn(request => getAxiosResponse(request))
+export const Axios = jest.fn(request => getAxiosResponse(request))
 
-axios.delete = jest.fn(request => getAxiosResponse(request, 'delete'))
-axios.get = jest.fn(request => getAxiosResponse(request, 'get'))
-axios.patch = jest.fn(request => getAxiosResponse(request, 'patch'))
-axios.post = jest.fn(request => getAxiosResponse(request, 'post'))
-axios.put = jest.fn(request => getAxiosResponse(request, 'put'))
-axios.trace = jest.fn(request => getAxiosResponse(request, 'trace'))
-axios.create = jest.fn(config => axiosConfig = deepMerge(axiosConfig, config))
-axios.getConfig = () => axiosConfig
+Axios.delete = jest.fn(request => getAxiosResponse(request, 'delete'))
+Axios.get = jest.fn(request => getAxiosResponse(request, 'get'))
+Axios.patch = jest.fn(request => getAxiosResponse(request, 'patch'))
+Axios.post = jest.fn(request => getAxiosResponse(request, 'post'))
+Axios.put = jest.fn(request => getAxiosResponse(request, 'put'))
+Axios.trace = jest.fn(request => getAxiosResponse(request, 'trace'))
+Axios.create = jest.fn(config => axiosConfig = deepMerge(axiosConfig, config))
+Axios.getConfig = () => axiosConfig

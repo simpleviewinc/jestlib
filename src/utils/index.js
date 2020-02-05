@@ -1,2 +1,2 @@
 export * from './setMocks'
-export * from './defaultMocks'
+export * from './resetMocks'
